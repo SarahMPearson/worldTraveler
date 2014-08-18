@@ -1,10 +1,12 @@
-## name of project
+## WorldTraveler
 ### Code Badges
-build status icon
-coverage status icon
+
+[![Build Status](https://travis-ci.org/SarahMPearson/worldTraveler.svg)](https://travis-ci.org/SarahMPearson/worldTraveler)
+
+[![Coverage Status](https://coveralls.io/repos/SarahMPearson/worldTraveler/badge.png)](https://coveralls.io/r/SarahMPearson/worldTraveler)
 
 ### About
-write a description about your project
+An app for world Travelers
 
 ### Models
 ```
@@ -34,8 +36,6 @@ $ npm install
 $ npm test
 ```
 
-### Contributors
-- [Chyld Medford](https://github.com/chyld)
 
 ### License
 [MIT](LICENSE)
