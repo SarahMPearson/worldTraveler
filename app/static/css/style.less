@@ -3,12 +3,17 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 @import url(http://fonts.googleapis.com/css?family=Philosopher);
 
+@bg-color: saturate(lightgrey, 20%);
+
 *{
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
 }
 html, body{
   height: 100%
+}
+body{
+  background-color: @bg-color;
 }
 
 #map{

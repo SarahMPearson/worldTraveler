@@ -1,10 +1,26 @@
 extends ../shared/template
 block content
-  #map
-
-
+  .row
+    .col-xs-4
+      #map
+    .col-xs-8
+      table(class='table table-bordered')
+        thead
+          th Name
+          th Start
+          th End
+          th Lat
+          th Lng
+        tbody
+        each vacation in vacations
+          tr
+            td= vacation.name
+            td= moment(vacation.start).format('dddd, MMM Do YYYY')
+            td= moment(vacation.end).format('dddd, MMM Do YYYY')
+            td= vacation.lat
+            td= vacation.lng
 
 
 block scripts
-  script(src='/js/user/new-vacation.js')
+  script(src='/js/user/vacations.js')
 
