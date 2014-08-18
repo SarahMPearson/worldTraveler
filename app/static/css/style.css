@@ -1,12 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 *{
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
 }
 
-body{
-  background-image: url(/img/node.png);
-  background-size: cover;
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
 }
 
+nav {
+  display: inline-block;
+}
