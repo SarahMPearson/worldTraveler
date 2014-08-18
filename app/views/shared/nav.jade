@@ -1,0 +1,21 @@
+nav.navbar.navbar-inverse(role='navigation')
+    .container-fluid
+        //
+           Brand and toggle get grouped for better mobile display 
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(class="navbar-brand", href="/") World Traveler
+        //
+           Collect the nav links, forms, and other content for toggling 
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li: a(href='/about') About
+            li: a(href='/faq') FAQ
+            li: a(href='/contact') Contact
+            li: a(href='/vacations/new') New Vacation
+            li: a(href='/vacation') Vacations
+

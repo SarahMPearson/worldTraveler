@@ -1,0 +1,19 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"Hawaii",
+  "start":{"$date":477295200000},
+  "end":{"$date":477295300000},
+  "lat":21.3, 
+  "lng":157.7,
+  "photos":['http://3.bp.blogspot.com/-oQJU0fkw8pk/T33KOlIsFgI/AAAAAAAAAHM/AopCW7B_J9Q/s1600/Kaanapali_Beach_Maui_Hawaii.jpg', 'http://media.royalcaribbean.com/content/shared_assets/images/destinations/regions/hero/hawaii_01.jpg']
+}
+
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Hyannis",
+  "start":{"$date":1408397504939},
+  "end":{"$date":1408397591581},
+  "lat":41.6, 
+  "lng":70.2,
+  "photos":['http://www.rpexclusives.com/communities/hyannis-ma.jpg', 'http://cdn.mntm.me/ab/2c/33/Hyannis-Massachusetts-ab2c332bbec04248b66580ebe38b04f7_c.jpg']
+}
