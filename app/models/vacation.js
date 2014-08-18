@@ -4,8 +4,8 @@ function Vacation(o){
   this.name       = o.name;
   this.start      = new Date(o.start);
   this.end        = new Date(o.end);
-  this.lat        = parseFloat(o.lat);
-  this.lng        = parseFloat(o.lng);
+  this.lat        = parseFloat(o.lat).toFixed(3);
+  this.lng        = parseFloat(o.lng).toFixed(3);
   this.photos     = [];
 
 }
